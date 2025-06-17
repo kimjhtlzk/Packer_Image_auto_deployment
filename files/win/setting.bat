@@ -1,0 +1,2 @@
+@echo off
+powershell -Command "Invoke-WebRequest -Uri 'https://technms.com2us.com/download/script/win/setting.bat' -OutFile 'setting.bat'; Start-Process 'cmd.exe' -ArgumentList '/c setting.bat' -NoNewWindow -Wait"
